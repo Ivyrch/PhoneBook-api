@@ -43,14 +43,4 @@ app.delete('/contacts/:id', (req, res) => {
 });
 
 
-app.get('/external-contacts', async (req, res) => {
-    try {
-        const response = await axios.get('https://api.example.com/contacts');
-        res.json(response.data);
-    } catch (error) {
-        console.error('Error fetching external contacts:', error);
-        res.status(500).json({ message: 'Error fetching external contacts' });
-    }
-});
-
 export default app;
