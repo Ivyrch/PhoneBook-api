@@ -1,11 +1,13 @@
-Instructions to run the project: 
+# Phone Book App
 
+## To run the project, follow these steps:
+
+```bash
 git clone https://github.com/Ivyrch/PhoneBook-api.git
 cd PhoneBook-api
 npm install
-npm run dev 
+npm run dev
 
+- to run tests:
+npm run test 
 
-to run the tests: 
-
-npm run test
