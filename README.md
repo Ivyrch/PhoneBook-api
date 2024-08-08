@@ -1,4 +1,4 @@
-# Phone Book App
+# Phone Book Api
 
 ## To run the project, follow these steps:
 
